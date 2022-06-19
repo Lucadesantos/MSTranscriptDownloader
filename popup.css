@@ -1,0 +1,79 @@
+
+
+body{
+    width: 220px;
+    height:150px;;
+}
+
+
+div.title {
+	display:inline-block;
+}
+
+div.checkbox1 {
+	display:inline-block;
+}
+
+
+#logo{
+	float: left;  
+}
+
+
+#togglePopup{
+	position: relative;
+	left: 5px;
+	top:10px;
+	float: left;  
+}
+
+div.text {
+	position: relative;
+	left: 5px;
+	top:10px;
+	color: #494a4d;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+
+div.text2 {
+	position: relative;
+	left: 5px;
+	top:10px;
+	color: #494a4d;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+
+div.buttontext{
+	display:block;
+}
+
+button {
+	position:absolute;
+    bottom: 10%;
+    left: 0;
+	right: 0;
+	background-color:#d76736;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 8vmin;
+	opacity: 0.6;
+	margin:0 auto;
+	border-radius: 5px;
+	display:block;
+	transition-duration: 0.2s;
+}
+
+button:hover {
+  opacity: 1
+}
+
+button:active {
+  opacity: 1
+}
